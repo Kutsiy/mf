@@ -1,5 +1,7 @@
+from modules.illustrator import start
+
 def main():
-    print("Hello from mp!")
+    start()
 
 
 if __name__ == "__main__":
