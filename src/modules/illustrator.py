@@ -27,9 +27,10 @@ def start():
     command_cr = command_creator(root=root)
 
     first_scene = command_cr(command=start_first_scene)
+    second_scene = command_cr(command=start_second_scene)
 
     create_button(root=buttons_frame, text="First scene", row=0, column=0, command=first_scene)
-    create_button(root=buttons_frame, text="Second scene", row=0, column=1, command=None)
+    create_button(root=buttons_frame, text="Second scene", row=0, column=1, command=second_scene)
     create_button(root=buttons_frame, text="Third scene", row=1, column=0, command=None)
     create_button(root=buttons_frame, text="Four scene", row=1, column=1, command=None)
 
